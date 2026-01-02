@@ -6,7 +6,7 @@ public class NumberGame {
         Random random = new Random();
         Scanner sc = new Scanner(System.in);
 
-        int number = random.nextInt(10) + 1; // number between 1 and 10
+        int number = random.nextInt(10) + 1; 
         int guess = 0;
         int attempts = 0;
 
